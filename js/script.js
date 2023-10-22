@@ -1,41 +1,63 @@
-console.log("Witaj na mojej stronie.");
+ {
+    const welcome = () => {
+    console.log("Witaj na mojej stronie.");
+}
+welcome();
 
-let formElement = document.querySelector(".js-form");
-let currencyElement = document.querySelector(".js-currency");
-let exchangeElement = document.querySelector(".js-exchange");
-let resultElement = document.querySelector(".js-result");
-
-let rateEUR = 4.45;
-let rateUSD = 4.07;
-let rateGBP = 5.17;
-let rateCHF = 4.55;
-let rateNOK = 0.38;
-
-formElement.addEventListener("submit", (event) => {
-    event.preventDefault();
-
-    let currency = +currencyElement.value;
-    let exchange = exchangeElement.value;
-    let result;
+const calculateResult = (currency, exchange) => {
+    const rateEUR = 4.45;
+    const rateUSD = 4.07;
+    const rateGBP = 5.17;
+    const rateCHF = 4.55;
+    const rateNOK = 0.38;
 
     switch (exchange) {
         case "USD":
-            result = currency / rateUSD;
-            break;
+            return currency / rateUSD;
+
         case "EUR":
-            result = currency / rateEUR;
-            break;
+            return currency / rateEUR;
+
         case "GBP":
-            result = currency / rateGBP;
-            break;
+            return currency / rateGBP;
+
         case "CHF":
-            result = currency / rateCHF;
-            break;
+            return currency / rateCHF;
+
         case "NOK":
-            result = currency / rateNOK;
-            break;
+            return currency / rateNOK;
+
+    }
+};
+
+const updateResultText = (currency,result, exchange) => {
+    const resultElement = document.querySelector(".js-result");
+    resultElement.innerHTML = `${currency.toFixed(2)} PLN to <strong>${result.toFixed(2)
+    } ${ exchange }
+    </strong > `;
+}
+
+const onFormSubmit =  (event) => {
+    event.preventDefault();
+
+    const currencyElement = document.querySelector(".js-currency");
+    const exchangeElement = document.querySelector(".js-exchange");
+    
+
+    const currency = +currencyElement.value;
+    const exchange = exchangeElement.value;
+
+    const result = calculateResult(currency, exchange);
+
+   updateResultText(currency,result, exchange);
     }
 
-    resultElement.innerHTML = `${currency.toFixed(2)} PLN to <strong>${result.toFixed(2)} ${exchange}
-    </strong>`;
-});
+   const init = () => {
+    const formElement = document.querySelector(".js-form");
+
+    formElement.addEventListener("submit", onFormSubmit);
+    };
+
+    init();  
+
+  } 
