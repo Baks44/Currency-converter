@@ -3,7 +3,7 @@
     console.log("Witaj na mojej stronie.");
 }
 welcome();
-
+ 
 const calculateResult = (currency, exchange) => {
     const rateEUR = 4.45;
     const rateUSD = 4.07;
@@ -29,6 +29,7 @@ const calculateResult = (currency, exchange) => {
 
     }
 };
+calculateResult ();
 
 const updateResultText = (currency,result, exchange) => {
     const resultElement = document.querySelector(".js-result");
