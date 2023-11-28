@@ -10,6 +10,7 @@ Welcome to my other website, I am really happy you are there, I have included so
 - HTML
 - CSS
 - BEM
+- ES6+
 
 ## Warning
 In this converter, you can calculate the exchange rates of foreign currencies in relation to PLN.
