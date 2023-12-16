@@ -18,7 +18,7 @@ In this converter, you can calculate the exchange rates of foreign currencies in
 
 ### Preview:
 
-![Currency converter](https://github.com/Baks44/Modu-04/blob/main/images/preview%20converter.gif?raw=true)
+![Currency converter](https://github.com/Baks44/Modu-04/blob/main/images/gif%20preview%20converter.gif?raw=true)
 
 ### Demo
 https://baks44.github.io/Modu-04/
