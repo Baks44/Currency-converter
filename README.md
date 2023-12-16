@@ -26,4 +26,6 @@ In this converter, you can calculate the exchange rates of foreign currencies in
 - Below these fields, there is a button that is used to calculate the above-mentioned values.
 
 ### Demo
+Here you can try by yourself how it works! 
+
 https://baks44.github.io/Modu-04/
