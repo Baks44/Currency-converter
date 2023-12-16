@@ -5,7 +5,7 @@
 Welcome to my other website, I am really happy you are there, I have included some useful information below.Enjoy!
 
 ## Features
-- alternative box model
+- Alternative box model
 - JavaScript
 - HTML
 - CSS
