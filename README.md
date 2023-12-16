@@ -16,8 +16,9 @@ Welcome to my other website, I am really happy you are there, I have included so
 In this converter, you can calculate the exchange rates of foreign currencies in relation to PLN.
 **Remember! currency rates are constantly changing.**
 
-### Screenshot:
-![image](https://github.com/Baks44/Modu-04/assets/140062621/b803a1f6-b27a-43e5-b79c-c2999eaa85f1) 
+### Preview:
+
+![Currency converter](https://github.com/Baks44/Modu-04/blob/main/images/preview%20converter.gif?raw=true)
 
 ### Demo
 https://baks44.github.io/Modu-04/
