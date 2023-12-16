@@ -21,9 +21,9 @@ In this converter, you can calculate the exchange rates of foreign currencies in
 ![Currency converter](https://github.com/Baks44/Modu-04/blob/main/images/gif%20preview%20converter.gif?raw=true)
 
 ### Discription:
-1.In the first field you have to fill in numbers amount PLN you want to convert to other currnecy.
-2.In the second field, you can choose what currency the value above should be converted to.
-3.Below these fields, there is a button that is used to calculate the above-mentioned values.
+- In the first field you have to fill in numbers amount PLN you want to convert to other currnecy.
+- In the second field, you can choose what currency the value above should be converted to.
+- Below these fields, there is a button that is used to calculate the above-mentioned values.
 
 ### Demo
 https://baks44.github.io/Modu-04/
