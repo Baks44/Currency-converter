@@ -9,7 +9,7 @@
     border: 1px solid;
     padding: 5px;
     border-radius: 5px;
-    background-color: rgba(245, 245, 245, 0.825);
+    background-color: rgb(245, 245, 245);
 }
 
 .form__labelText {
@@ -41,7 +41,7 @@
     width: 700px;
     border: 1px solid rgb(139, 139, 139);
     border-radius: 5px;
-    background-color: rgba(245, 245, 245, 0.825);
+    background-color: rgb(245, 245, 245);
 }
 
 .form__button {
