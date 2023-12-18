@@ -28,4 +28,4 @@ In this converter, you can calculate the exchange rates of foreign currencies in
 ### Demo
 Here you can try by yourself how it works! 
 
-https://baks44.github.io/Modu-04/
+https://baks44.github.io/Currency-converter/
